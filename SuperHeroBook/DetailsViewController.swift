@@ -11,15 +11,18 @@ class DetailsViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
     
     var selectedHeroName = ""
     var selectedHeroImages = ""
+    var selectedHeroDescription = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         imageView.image = UIImage(named: selectedHeroImages)
         label.text = selectedHeroName
+        descriptionLabel.text = selectedHeroDescription
     }
     
 

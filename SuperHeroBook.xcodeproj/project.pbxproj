@@ -42,7 +42,6 @@
 		E6A9D3DB2C5944C300FE5F50 = {
 			isa = PBXGroup;
 			children = (
-				E6A9D3FB2C598A6600FE5F50 /* DetailsViewController.swift */,
 				E6A9D3E62C5944C300FE5F50 /* SuperHeroBook */,
 				E6A9D3E52C5944C300FE5F50 /* Products */,
 			);
@@ -59,6 +58,7 @@
 		E6A9D3E62C5944C300FE5F50 /* SuperHeroBook */ = {
 			isa = PBXGroup;
 			children = (
+				E6A9D3FB2C598A6600FE5F50 /* DetailsViewController.swift */,
 				E6A9D3E72C5944C300FE5F50 /* AppDelegate.swift */,
 				E6A9D3E92C5944C300FE5F50 /* SceneDelegate.swift */,
 				E6A9D3EB2C5944C300FE5F50 /* ViewController.swift */,
